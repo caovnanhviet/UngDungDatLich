@@ -1,72 +1,53 @@
-body{
-  font-family: Arial, sans-serif;
-  background: #f5f6fa;
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
 
+/* LOGIN */
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.container {
-  width: 400px;
-  max-width: 90%;
-  margin: 50px auto;
-  padding: 20px;
-  border-radius: 10px;
+
+.login-card {
+  width: 320px;
   background: white;
-  overflow: hidden;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
 }
-h2{
-  text-align: center;;
+
+.login-input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #ddd;
 }
-input {
+
+.login-btn {
   width: 100%;
   padding: 10px;
-  margin-top: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-} 
-button{
-  margin-top: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-btn-main{
-  width: 100%;
-  background: #4CAF50;
+  background: #1877f2;
   color: white;
-}
-btn-delete{
-  background: red;
-  color:white;
-  margin-left: 5px;
-}
-btn-edit{
-  background:orange;
-  color:white;
-  margin-left: 5px;
-}
-.list-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px; 
-  flex-wrap: wrap; 
-}
-button {
-  transition: 0.2s;
+  border: none;
+  border-radius: 8px;
 }
 
-button:hover {
-  transform: scale(1.05);
-  opacity: 0.9;
+/* BOOKING */
+.container {
+  padding: 20px;
 }
-.list-itme{
-  transition: 0.3s;
-
-}
-.list-item:hover{
-  transform: translateY(-3px);
-  background: #eaeaea;
-}
-* {
-  box-sizing: border-box;
+.register-btn {
+  width: 100%;
+  padding: 10px;
+  background: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
 }
